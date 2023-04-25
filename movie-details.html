@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrix - Best Movies Collections</title>
+
+    <link rel="shortcut icon" href="Retrix.svg" type="image/svg+xml">
+
+    <!----
+        Custom css Link    
+    --->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-----
+    Google font Line    
+    --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    
+<!----
+#header
+-->
+
+<header class="header" data-header>
+<div class="container">
+
+    <div class="overlay" data-overlay></div>
+    
+    <a href="./index.html" class="logo">
+        <img src="./assets/images/logo.png" alt="Retrix Logo">
+    </a>
+
+    <div class="hero-action">
+
+        <div class="search">
+            <input type="text" placeholder="Search Movies">
+            <button class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <div class="search-bar"></div>
+        </div>
+
+    <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+    </button>
+
+    <nav class="navbar" data-navbar>
+
+
+        <div class="navbar-top">
+
+        <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.png" alt="Retrix Logo">
+        </a>
+
+            <button class="menu-close-btn" data-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+
+        <ul class="navbar-list">
+
+            <li>
+                <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+                <a href="movies.html" class="navbar-link">Movie</a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-link">Tv Show</a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-link">Animation</a>
+            </li>
+
+
+        </ul>
+
+        <ul class="navbar-social-list">
+
+            <li>
+                <a href="#" class="navbar-social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-social-link">
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+        </ul>
+
+        </nav>
+
+</div>
+</header>
+
+
+<main>
+    <article>
+
+
+        <!--
+            TOP RATED
+        -->
+
+        <section class="top-rated">
+            <div class="container">
+
+                <div class="flex-wrapper">
+
+                <div class="title-wrapper">
+
+                    <h2 class="h2 section-title">Top Rated</h2>
+                </div>
+
+                <ul class="filter-list">
+                    <li>
+                        <button class="filter-btn"> Movies</button>
+                    </li>
+
+                    <li>
+                        <button class="filter-btn"> TV Shows</button>
+                    </li>
+
+                    <li>
+                        <button class="filter-btn"> Documentary</button>
+                    </li>
+
+                    <li>
+                        <button class="filter-btn"> Sports</button>
+                    </li>
+                    
+                </ul>
+
+                </div>
+
+                <ul class="movies-list has-scrollbar">
+
+                    <li>
+                        <div class="moviecard">
+
+                            <a href="./movie-details.html">
+                                <figure class="card-banner">
+                                    <img src="./assets/images/gangs of lagos.jpg" alt="Gangs Of Lagos">
+                                </figure>
+                            </a>
+                            <div class="title-wrapper">
+                                <a href="./movie-details.html">
+                                    <h3 class="card-title">Gangs Of Lagos</h3>
+                                </a>
+
+                                <time datetime="2023">2023</time>
+                            </div>
+
+                            <div class="card-meta">
+                                <div class="badge badge-outline">HD</div>
+
+                                <div class="duration">
+                                    <ion-icon name="time-outline"></ion-icon>
+
+                                <time datetime="2hr 58mins">2hr 58mins</time>
+                                </div>
+
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+
+                                    <data>8.7</data>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="moviecard">
+
+                            <a href="./movie-details.html">
+                                <figure class="card-banner">
+                                    <img src="./assets/images/The Magicians Elephant.jpg" alt="The Magician's Elephant movie poster">
+                                </figure>
+                            </a>
+                            <div class="title-wrapper">
+                                <a href="./movie-details.html">
+                                    <h3 class="card-title">The Magician's Elephant</h3>
+                                </a>
+
+                                <time datetime="2023">2023</time>
+                            </div>
+
+                            <div class="card-meta">
+                                <div class="badge badge-outline">4K</div>
+
+                                <div class="duration">
+                                    <ion-icon name="time-outline"></ion-icon>
+
+                                <time datetime="1hr 43min">1hr 43min</time>
+                                </div>
+
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+
+                                    <data>NR</data>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="moviecard">
+
+                            <a href="./movie-details.html">
+                                <figure class="card-banner">
+                                    <img src="./assets/images/HUESERA The Bone Woman.jpg" alt="HUESERA: THE BONE WOMAN">
+                                </figure>
+                            </a>
+                            <div class="title-wrapper">
+                                <a href="./movie-details.html">
+                                    <h3 class="card-title">HUESERA: THE BONE WOMAN</h3>
+                                </a>
+
+                                <time datetime="2022">2022</time>
+                            </div>
+
+                            <div class="card-meta">
+                                <div class="badge badge-outline">4k</div>
+
+                                <div class="duration">
+                                    <ion-icon name="time-outline"></ion-icon>
+
+                                <time datetime="1h 33m">1h 33m</time>
+                                </div>
+
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+
+                                    <data>NR</data>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="moviecard">
+
+                            <a href="./movie-details.html">
+                                <figure class="card-banner">
+                                    <img src="./assets/images/RYE LANE.jpg" alt="RYE LANE movie poster">
+                                </figure>
+                            </a>
+                            <div class="title-wrapper">
+                                <a href="./movie-details.html">
+                                    <h3 class="card-title">RYE LANE</h3>
+                                </a>
+
+                                <time datetime="2022">2023</time>
+                            </div>
+
+                            <div class="card-meta">
+                                <div class="badge badge-outline">2k</div>
+
+                                <div class="duration">
+                                    <ion-icon name="time-outline"></ion-icon>
+
+                                <time datetime="1h 22m">1h 22m</time>
+                                </div>
+
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+
+                                    <data>7.3</data>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </section>
+
+
+         <!--
+            footer
+        -->
+
+        <section class="footer">
+            <div class="footer-top">
+
+                <div class="container">
+                    <div class="footer-brand-wrapper">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/images/logo.png" alt="Retrix Logo">
+                        </a>
+
+                        <ul class="footer-list">
+                            <li>
+                                <a href="./index.html" class="footer-link">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="./movies.html" class="footer-link">Movies</a>
+                            </li>
+
+                            <li>
+                                <a href="./index.html" class="footer-link">Tv-Shows</a>
+                            </li>
+
+                            <li>
+                                <a href="./index.html" class="footer-link">Animation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+                <div class="quicklink-wrapper">
+
+                    <ul class="quicklink-list">
+
+                        <li>
+                            <a href="#" class="quicklink-link">Faq</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="quicklink-link">Help center</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="quicklink-link">Terms of use</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="quicklink-link">Privacy</a>
+                        </li>
+                    </ul>
+
+                    <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <p class="copyright">&copy; 2023 Retrix. All Rights Reserved</p>
+                </div>
+            </div>
+        </section>
+
+    </article>
+</main>
+
+
+
+
+
+    <!-----
+        Custom Js Link
+    ---->
+    <script src="./assets/js/script.js"></script>
+
+    <!---
+    Ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
